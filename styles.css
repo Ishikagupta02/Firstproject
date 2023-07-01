@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black; 
+   
+}
+
+.images1{
+    width:50%;
+    height: 90%;
+    position: absolute;
+    bottom: 0%;
+    right: 7%;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:2rem 5%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.logo{
+    font-size: 2rem;
+    color: rgb(205, 117, 50);
+    font-weight: 500;
+
+}
+.logo span{
+    color: rgb(14, 29, 198) ;
+}
+
+.navbar a{
+    font-size: 1.5rem; 
+    margin-left: 3rem;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.navbar a:hover{
+    color: red;
+}
+.navbar a.active{
+    color: red;
+}
+
+.content{
+    margin-left: 10%;
+    margin-top: 27%;
+   
+}
+.content h1{
+    color: aliceblue;
+    font-size:2.8rem;  
+}
+
+.content span{
+    color: red;
+}
+
+.content p{
+    color: bisque;
+    font-size:1.4rem;  
+}
+  
+    
+.content h2{
+    color: aquamarine;
+    font-size:1.9rem;     
+}
+
+.content a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color:#fff;
+    display:inline-block;
+    margin: 30px 0px;
+    border-radius: 7px ;
+    border:2px solid wheat;
+}
+
+.content a:hover{
+    color:aquamarine;
+}
+
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    background: #fff;
+}
+
+
+
